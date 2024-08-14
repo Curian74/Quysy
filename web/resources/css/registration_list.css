@@ -1,0 +1,51 @@
+.sort-instruction {
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-form input, .search-form select, .search-form button {
+    margin-right: 10px;
+}
+.filter {
+    display: flex;
+    align-items: center;
+}
+.filter label {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+table th.status-column, table td.status-column {
+    width: 100px;
+    text-align: center;
+}
+
+
+
+

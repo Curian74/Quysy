@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+.profile-section {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+.avatar-container {
+    margin-top: 5%;
+    text-align: center;
+}
+
+img.avatar {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #ccc;
+    border-radius: 100%;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.popup-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#gender-options {
+    display: flex;
+    align-items: center;
+}
+#gender-options label {
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+#gender-options input {
+    margin-right: 6px;
+}
+.gender-container {
+    display: flex;
+    align-items: center;
+}
+.gender-option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.gender-option input[type="radio"] {
+    margin-right: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.profile-section button {
+    width: 200px;
+    margin: 10px 0;
+}
+
+

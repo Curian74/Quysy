@@ -1,0 +1,38 @@
+.tabs {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+.tab {
+    padding: 10px 200px 10px 200px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.content {
+    border: 1px solid #ccc;
+    padding: 20px 0px 20px 0px;
+    padding-left: 20%;
+    margin: 0px 300px 0px 200px;
+}
+.tab:not(:last-child) {
+    border-right: none;
+}
+.tab.active {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+.content > div {
+    display: none;
+}
+.content > div.active {
+    display: block;
+}
+#subject-drop{
+    width: 200px;
+}
+.form-control{
+    width: 200px;
+}
+#quizForm{
+    margin-left: 25%;
+}

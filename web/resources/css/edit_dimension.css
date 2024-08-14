@@ -1,0 +1,14 @@
+#currentSub{
+    width: 300px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#warnMess{
+    font-style: italic;
+    font-size:15px;
+    color:red;
+}
+

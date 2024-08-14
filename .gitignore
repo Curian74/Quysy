@@ -1,0 +1,17 @@
+# Ignore build and distribution directories
+dist/
+build/
+.idea/
+
+# Ignore NetBeans private project data
+nbproject/private/
+
+# Ignore macOS specific file
+.DS_Store
+**/.DS_Store
+
+# Ignore compiled class files
+*.class
+
+# Do not ignore .gitignore itself
+!.gitignore

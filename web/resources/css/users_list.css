@@ -1,0 +1,24 @@
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-form input, .search-form select, .search-form button {
+    margin-right: 10px;
+}
+
+.sort-instruction {
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.table th a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.table th a:hover {
+    text-decoration: underline;
+}   

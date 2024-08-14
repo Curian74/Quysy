@@ -1,0 +1,23 @@
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.top-bar h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.sort-instruction {
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}

@@ -1,0 +1,86 @@
+
+.subject-details {
+    margin-left: 50px;
+}
+.subject-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.description{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.package-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.package-table th,
+.package-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.register-btn {
+    text-align: center;
+}
+/* Modal styling */
+#register_content {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.modal-header {
+    border-bottom: none;
+
+}
+register_body {
+    padding: 2rem;
+}
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+.modal-content h1 {
+    margin-bottom: 1rem;
+}
+.register_h2 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.modal-content .form-group {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.register_lb {
+    font-weight: bold;
+}
+.modal-content .form-control {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+#btn_register {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.modal-content .btn-secondary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.modal-content .btn {
+    width: 100px;
+    border-radius: 5px;
+}
+#test{
+    margin-left:10%;
+}
+
+.radio-margin {
+    margin: 30px;
+}
+
